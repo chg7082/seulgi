@@ -311,7 +311,7 @@ section.top-nav{display: none;}
 	section.s2 p{font-size: 3.2vw;}
 	section.s2 .box .character .logo2 img{display: none;}
 	section.s2 .box .character .ch2{position: absolute;  top: 140vw; left: 15.3vw; -webkit-transition: none; transition: none; cursor: none; }
-	section.s2 .box .character .ch2 img{width: 325px; height: 400px;}
+	section.s2 .box .character .ch2 img{width: 280px; height: 340px;}
 	section.s2 .box .profile{position: absolute; left: 5vw; top: 180vw; }
 	section.s2 .box .profile .mine p{font-size: 3vw;  line-height: 5vw; margin-top: 6vw;}
 	section.s2 .box .profile .skill{position: absolute; top: 42.5vw;}
