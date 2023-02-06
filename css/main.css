@@ -489,7 +489,7 @@ section.top-nav{display: none;}
 		  width: 100%;
 		  color: white;
 		  background-color: #ffbb03;
-		  line-height: 15vw;
+		  line-height: 15.2vw;
 		}
 		.menu > li:not(:last-child) {
 		  border-bottom: 1px solid #444;
