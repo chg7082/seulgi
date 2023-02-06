@@ -461,7 +461,7 @@ section.top-nav{display: none;}
 		}
 		.menu {
 		  position: absolute;
-		  top: 2.7vw;
+		  top: 2.5vw;
 		  margin-top: 50px;
 		  left: 0;
 		  flex-direction: column;
