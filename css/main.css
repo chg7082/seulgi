@@ -305,14 +305,14 @@ section.top-nav{display: none;}
 	section.s1 .main_content{width: 52vw; top: 53vw; right: 9.5vw; animation:main_animation 0.5s forwards;}
 
 	/* 디자인 카레 소개 */
-	section.s2{height: 209vw;}
+	section.s2{height: 180vw;}
 	section.s2 .box > div{width: 90%;}
 	section.s2 h1{font-size: 6vw;}
 	section.s2 p{font-size: 3.2vw;}
-	section.s2 .box .character .logo2{display:none;}
-	section.s2 .box .character .ch2{position: absolute;  top: 145vw; left: 16.5vw; -webkit-transition: none; transition: none; cursor: none; }
-	section.s2 .box .character .ch2 img{width: 250px; height: 320px;}
-	section.s2 .box .profile{position: absolute; left: 5vw; top: 250vw; }
+	section.s2 .box .character .logo2 img{display: none;}
+	section.s2 .box .character .ch2{position: absolute;  top: 140vw; left: 16.5vw; -webkit-transition: none; transition: none; cursor: none; }
+	section.s2 .box .character .ch2 img{width: 325px; height: 400px;}
+	section.s2 .box .profile{position: absolute; left: 5vw; top: 220vw; }
 	section.s2 .box .profile .mine p{font-size: 3vw;  line-height: 5vw; margin-top: 6vw;}
 	section.s2 .box .profile .skill{position: absolute; top: 42.5vw;}
 	section.s2 .box .profile .skill .container-skillbar{width: 90vw;}
