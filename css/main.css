@@ -297,7 +297,7 @@ section.top-nav{display: none;}
 	header nav{display:none;}
 
 	/* 인트로 */
-	section.s1{height: 120vw;}
+	section.s1{height: 125vw;}
 	section.s1 .main_txt{display: none;}
 	section.s1 .main_info{display: none;}
 	section.s1 .main_bar{height: 20vw; left: -24.5vw; top: 30vw;}
@@ -305,7 +305,7 @@ section.top-nav{display: none;}
 	section.s1 .main_content{width: 52vw; top: 53vw; right: 9.5vw; animation:main_animation 0.5s forwards;}
 
 	/* 디자인 카레 소개 */
-	section.s2{height: 155vw;}
+	section.s2{height: 160vw;}
 	section.s2 .box > div{width: 90%;}
 	section.s2 h1{font-size: 6vw;}
 	section.s2 p{font-size: 3.2vw;}
@@ -335,7 +335,7 @@ section.top-nav{display: none;}
 	section.s3 .photos{display: none;}
 
 	/* 디자인 카레 웹코딩 */
-	section.s4{height: 155vw;}
+	section.s4{height: 160vw;}
 	section.s4 h1{font-size: 6vw;}
 	section.s4 p{font-size: 3.2vw;}
 	section.s4 .box .tab .tab_title ul li a{padding: 0.5vw 2vw; background-color: #ff9600; color: #fff; font-size: 4.5vw; margin: 0 2vw; margin-bottom: 2vw;}
@@ -350,14 +350,14 @@ section.top-nav{display: none;}
 	section.s4 .box .tab .content .con2 .guide p{background-color:#ff9600 ; color: #fff; display: inline-block;  margin-top:3vw; font-size: 4vw; padding: 1.2vw;}
 
 	/* 디자인 카레 찐 리뷰 */
-	section.s5{height: 98vw;}
+	section.s5{height: 103vw;}
 	section.s5 h1{font-size: 6vw;}
 	section.s5 p{font-size: 3.2vw;}
 	section.s5 .box .swiper{width: 170%; height: 100vw; margin-top: 3vw;}
 	section.s5 .box .swiper-button-prev, section.s5 .box .swiper-button-next{display: none;}
 
 	/* 디자인 카레 체험단 모집 */
-	section.s6{height: 100vw;}
+	section.s6{height: 105vw;}
 	section.s6 h1{font-size: 6vw;}
 	section.s6 p{font-size: 3.2vw;}
 	section.s6 .box .contact{width: 50%; -webkit-transition: none; transition: none; cursor: none; }
@@ -472,7 +472,7 @@ section.top-nav{display: none;}
 		#menu-toggle ~ .menu li {
 		  height: 0;
 		  margin: 0;
-		  padding: 0;
+		  /* padding: 0; */
 		  border: 0;
 		  transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
 		}
@@ -495,7 +495,7 @@ section.top-nav{display: none;}
 		  border-bottom: 1px solid #444;
 		}
 		
-		.menu li a{font-size: 17px; padding: 0.5vw 1vw; }
+		.menu li a{font-size: 18px; padding: 0.5vw 1vw; }
 
 		.menu > li:hover{background-color: #f2931d;}
 		.menu li:hover a{color: #fff;}
