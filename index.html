@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><!-- html문서의 정보 표시 -->
+        <meta charset="UTF-8"><!-- 다국어 지원(꼭 표시되어야만 다국어가 지원됨) -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+        <!-- 스타일 시트 -->
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+        <!-- 파비콘 -->
+        <link href="img/favicon.png" type="image/icon" rel="shortcut icon">
+        <!-- 외부 제이쿼리 -->
+        <script src="js/jquery-3.6.2.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <!-- 자바스크립트 -->
+        <script src="js/main.js"></script>
+        <title>디자인 카레</title>
+    </head>
+
+    <body>  
+        
+        
+        <div class="wrap">
+            <!-- 네비게이션 -->
+            <header>
+                <!-- PC버전 네비게이션 -->
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo.png" alt="로고"></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">디자인 카레</a></li>
+                        <li><a href="#s2">디자인 카레 소개</a></li>
+                        <li><a href="#s3">디자인 카레 그래픽</a></li>
+                        <li><a href="#s4">디자인 카레 웹코딩</a></li>
+                        <li><a href="#s5">디자인 카레 찐 리뷰</a></li>
+                        <li><a href="#s6">디자인 카레 체험단모집</a></li>
+                    </ul>
+                </nav>
+
+                <!-- 모바일 버전 네비게이션 -->
+                <meta name="viewport">
+                <div class="top-nav">
+                    <input id="menu-toggle" type="checkbox" />
+                    <label class='menu-button-container' for="menu-toggle">
+                        <div class='menu-button'></div>
+                    </label>
+                    <ul class="menu">
+                       <li><a href="index.html">디자인 카레</a></li>
+                        <li><a href="#s2">디자인 카레 소개</a></li>
+                        <li><a href="#s3">디자인 카레 그래픽</a></li>
+                        <li><a href="#s4">디자인 카레 웹코딩</a></li>
+                        <li><a href="#s5">디자인 카레 찐 리뷰</a></li>
+                        <li><a href="#s6">디자인 카레 체험단모집</a></li>
+                    </ul>
+                </div>
+            </header>
+            
+            <!-- 인트로 -->
+            <section class="s1">
+                <div class="main_txt">
+                    <p>창의적인 아이디어와 감각적인 디자인이 듬뿍 들어간 CSG의 신제품!</p>
+                    <h1>디자인 카레</h1>
+                </div>
+                <div class="main_info">
+                    <img src="img/curry_info.png" alt="카레 정보">
+                </div>
+                <div class="main_bar">
+                    <h2>디자인 카레 출시!!</h2>
+                </div>
+                <div class="main_content">
+                    <img src="img/curry01.png" alt="디자인 카레1">
+                </div>
+            </section>
+
+            <!-- 디자인 카레 소개 -->
+            <section class="s2" a id="s2">
+                <div>
+                    <h1>디자인 카레 소개</h1>
+                    <p>디자인 카레에 대해 소개합니다!</p>
+                    <div class="box">
+                        <div class="character">
+                            <div class="logo2">
+                                <img src="img/logo_2.png" alt="로고2">
+                            </div>
+                            <div class="ch2">
+                                <img src="img/curry01.png" alt="디자인 카레2">
+                            </div>
+                        </div>
+                        <div class="profile">
+                            <div class="mine">
+                                <p>
+                                    이름 : 최슬기<br>
+                                    나이 : 33세<br>
+                                    학력 : 경인여자대학교 광고영상디자인과 졸업<br>
+                                    수료내역 : 2014.10.02 ~ 2014.12.29 연희직업전문학원 웹디자인 과정수료<br>
+                                              2014.12.31 ~ 2015.01.16 연희직업전문학원 쇼핑몰제작실무 과정수료<br>
+                                              2022.11.29 ~ 2023.02.20 연희직업전문학원 (산대특)_센서를 활용한<br>
+                                              스마트팩토리 이상 탐지 SW개발자 양성_고용위기 과정수료<br>
+                                    자격증 : GTQ 포토샵 자격증 1급 보유, GTQ 일러스트 자격증 2급 예정
+                                </p>
+                            </div>
+
+                            <div class="skill">
+                                <div class="container-skillbar">
+                                    <div class="skillbar clearfix " data-percent="100%">
+                                        <div class="skillbar-title" style="background: #1a94f1;"><span>PS</span></div>
+                                        <div class="skillbar-bar sk1" style="background: #89ccff;"></div>
+                                        <div class="skill-bar-percent">100%</div>
+                                    </div> <!-- Ende Skill Bar -->
+                                
+                                    <div class="skillbar clearfix " data-percent="100%">
+                                        <div class="skillbar-title" style="background: #f47b20;"><span>Ai</span></div>
+                                        <div class="skillbar-bar sk2" style="background: #ee9552;"></div>
+                                        <div class="skill-bar-percent">100%</div>
+                                    </div> <!-- Ende Skill Bar -->
+                                
+                                    <div class="skillbar clearfix " data-percent="50%">
+                                        <div class="skillbar-title" style="background: #5ead00;"><span>웹표준</span></div>
+                                        <div class="skillbar-bar sk3" style="background: #96cf4f;"></div>
+                                        <div class="skill-bar-percent">50%</div>
+                                    </div> <!-- Ende Skill Bar -->
+                                
+                                    <div class="skillbar clearfix " data-percent="22%">
+                                        <div class="skillbar-title" style="background: #de4094;"><span>jQuery</span></div>
+                                        <div class="skillbar-bar sk4" style="background: #eca9cd;"></div>
+                                        <div class="skill-bar-percent">22%</div>
+                                    </div> <!-- Ende Skill Bar -->
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </section>
+
+            <!-- 디자인 카레 그래픽 -->
+            <section class="s3" a id="s3">
+                <div>
+                    <h1>디자인 카레 그래픽</h1>
+                    <p>엄선된 다양한 그래픽 재료들을 눈으로 직접 확인하세요!</p>
+                    <div class="box">
+                        <div class="buttons">
+                            <ul>
+                                <li class="bt1">
+                                    <a href="#">
+                                        <div class="back">
+                                            <img src="img/mainbtn.png" alt="메인페이지 뒤 버튼">
+                                        </div>
+                                        <div class="front">
+                                            <img src="img/mainbtn2.png" alt="메인페이지 앞 버튼">
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="bt2">
+                                    <a href="#">
+                                        <div class="back">
+                                            <img src="img/subbtn.png" alt="서브페이지 뒤 버튼">
+                                        </div>
+                                        <div class="front">
+                                            <img src="img/subbtn2.png" alt="서브페이지 앞 버튼">
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="bt3">
+                                    <a href="#">
+                                        <div class="back">
+                                            <img src="img/eventbtn.png" alt="이벤트페이지 뒤 버튼">
+                                        </div>
+                                        <div class="front">
+                                            <img src="img/eventbtn2.png" alt="이벤트페이지 앞 버튼">
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="bt4">
+                                    <a href="#">
+                                        <div class="back">
+                                            <img src="img/posterbtn.png" alt="포스터 디자인 뒤 버튼">
+                                        </div>
+                                        <div class="front">
+                                            <img src="img/posterbtn2.png" alt="포스터 디자인 앞 버튼">
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="bt5">
+                                    <a href="#">
+                                        <div class="back">
+                                            <img src="img/bookcoverbtn.png" alt="북커버 디자인 뒤 버튼">
+                                        </div>
+                                        <div class="front">
+                                            <img src="img/bookcoverbtn2.png" alt="북커버 디자인 앞 버튼">
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="bt6">
+                                    <a href="#">
+                                        <div class="back">
+                                            <img src="img/bannerbtn.png" alt="배너 디자인 뒤 버튼">
+                                        </div>
+                                        <div class="front">
+                                            <img src="img/bannerbtn2.png" alt="배너 디자인 앞 버튼">
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="bt7">
+                                    <a href="#">
+                                        <div class="back">
+                                            <img src="img/popupbtn.png" alt="팝업 디자인 뒤 버튼">
+                                        </div>
+                                        <div class="front">
+                                            <img src="img/popupbtn2.png" alt="팝업 디자인 앞 버튼">
+                                        </div>
+                                    </a>
+                                </li>
+
+
+                                <li class="bt8">
+                                    <a href="#">
+                                        <div class="back">
+                                            <img src="img/characterbtn.png" alt="캐릭터 디자인 뒤 버튼">
+                                        </div>
+                                        <div class="front">
+                                            <img src="img/characterbtn2.png" alt="캐릭터 디자인 앞 버튼">
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="bt9">
+                                    <a href="#">
+                                        <div class="back">
+                                            <img src="img/packagebtn.png" alt="패키지 디자인 뒤 버튼">
+                                        </div>
+                                        <div class="front">
+                                            <img src="img/packagebtn2.png" alt="패키지 디자인 앞 버튼">
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="bt10">
+                                    <a href="#">
+                                        <div class="back">
+                                            <img src="img/brochurebtn.png" alt="브로슈어 디자인 뒤 버튼">
+                                        </div>
+                                        <div class="front">
+                                            <img src="img/brochurebtn2.png" alt="브로슈어 디자인 앞 버튼">
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="bt11">
+                                    <a href="#">
+                                        <div class="back">
+                                            <img src="img/pamphletbtn.png" alt="팜플렛 디자인 뒤 버튼">
+                                        </div>
+                                        <div class="front">
+                                            <img src="img/pamphletbtn2.png" alt="팜플렛 디자인 앞 버튼">
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="bt12">
+                                    <a href="#">
+                                        <div class="back">
+                                            <img src="img/namecardbtn.png" alt="명함 디자인 뒤 버튼">
+                                        </div>
+                                        <div class="front">
+                                            <img src="img/namecardbtn2.png" alt="명함 디자인 앞 버튼">
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="photos">
+                            <ul>
+                                <li>
+                                    <h2>메인 페이지</h2>
+                                    <p>메가커피 사이트를 벤치마킹 하였습니다.</p>
+                                    <img src="img/mainpage_small.png" alt="메인페이지 미리보기">
+                                    <div class="search_btn">
+                                        <div class="scale">
+                                            <a href="#"><img src="img/scale.png" alt="확대"></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>상세 페이지</h2>
+                                    <p>빕스 상세페이지 리뉴얼 작업을 하였습니다.</p>
+                                    <img src="img/subpage_small.png" alt="상세페이지 미리보기">
+                                    <div class="search_btn">
+                                        <div class="scale">
+                                            <a href="#"><img src="img/scale.png" alt="확대"></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>이벤트 페이지</h2>
+                                    <p>베스킨 라빈스 이벤트 페이지와 와플대학 이벤트 페이지</p>
+                                    <img src="img/event_page_small.png" alt="이벤트 페이지 미리보기">
+                                    <div class="search_btn">
+                                        <div class="scale">
+                                            <a href="#"><img src="img/scale.png" alt="확대"></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>포스터 디자인</h2>
+                                    <p>국제 호랑이의 날 포스터와 설날 포스터</p>
+                                    <img src="img/posterdesign_small.png" alt="포스터 디자인 미리보기">
+                                    <div class="search_btn">
+                                        <div class="scale">
+                                            <a href="#"><img src="img/scale.png" alt="확대"></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>북커버 디자인</h2>
+                                    <p>하얼빈 북커버 리뉴얼 후 목업하였습니다.</p>
+                                    <img src="img/book_cover_small.png" alt="북커버 디자인 미리보기">
+                                    <div class="search_btn">
+                                        <div class="scale">
+                                            <a href="#"><img src="img/scale.png" alt="확대"></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>배너 디자인</h2>
+                                    <p>바디워시 배너와 향수세일 배너</p>
+                                    <img src="img/banner_small.png" alt="배너 디자인 미리보기">
+                                    <div class="search_btn">
+                                        <div class="scale">
+                                            <a href="#"><img src="img/scale.png" alt="확대"></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>팝업 배너</h2>
+                                    <p>서로 다른 분위기의 팝업 배너 디자인</p>
+                                    <img src="img/popup_small.png" alt="팝업 배너 미리보기">
+                                    <div class="search_btn">
+                                        <div class="scale">
+                                            <a href="#"><img src="img/scale.png" alt="확대"></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>캐릭터 디자인</h2>
+                                    <p>직접 그린 캐릭터를 가지고 일러스트레이터로 작업하였습니다.</p>
+                                    <img src="img/character_small.png" alt="캐릭터 디자인 미리보기">
+                                    <div class="search_btn">
+                                        <div class="scale">
+                                            <a href="#"><img src="img/scale.png" alt="확대"></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>패키지 디자인</h2>
+                                    <p>오설록 패키지 디자인 리뉴얼 후 목업하였습니다.</p>
+                                    <img src="img/package_small.png" alt="패키지 디자인 미리보기">
+                                    <div class="search_btn">
+                                        <div class="scale">
+                                            <a href="#"><img src="img/scale.png" alt="확대"></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>브로슈어 디자인</h2>
+                                    <p>베스킨 라빈스 브로슈어를 리뉴얼 후 목업하였습니다.</p>
+                                    <img src="img/brochure_small.png" alt="브로슈어 디자인 미리보기">
+                                    <div class="search_btn">
+                                        <div class="scale">
+                                            <a href="#"><img src="img/scale.png" alt="확대"></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>팜플렛 디자인</h2>
+                                    <p>오설록 팜플렛을 리뉴얼 후 목업하였습니다.</p>
+                                    <img src="img/pamphlet_small.png" alt="팜플렛 디자인 미리보기">
+                                    <div class="search_btn">
+                                        <div class="scale">
+                                            <a href="#"><img src="img/scale.png" alt="확대"></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>명함 디자인</h2>
+                                    <p>개인 명함을 일러스트레이터로 제작하여 목업하였습니다.</p>
+                                    <img src="img/namecard_small.png" alt="명함 디자인 미리보기">
+                                    <div class="search_btn">
+                                        <div class="scale">
+                                            <a href="#"><img src="img/scale.png" alt="확대"></a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 디자인 카레 웹코딩 -->
+            <section class="s4" a id="s4">
+                <div>
+                    <h1>디자인 카레 웹코딩</h1>
+                    <p>디자인 카레만의 비법이 담긴 웹코딩을 아낌없이 넣었습니다.</p>
+                    <div class="box">
+                        <div class="tab">
+                            <div class="tab_title">
+                                <ul>
+                                    <li class="tt1"><a href="#">오설록</a></li>
+                                    <li class="tt2"><a href="#">와플대학</a></li>
+                                </ul>
+                            </div>
+                            <div class="content">
+                                <div class="con1">
+                                    <div class="con_photo">
+                                        <img src="img/osl.png" alt="오설록">
+                                    </div>
+                                    <div class="con_btn">
+                                        <a href="https://chg7082.github.io/OSULLOC/">사이트 이동하기</a>
+                                    </div>
+                                    <div class="con_btn2">
+                                        <p>해당 사이트는 웹 화면에서 최적화 되어있습니다.</p>
+                                    </div>
+                                </div>
+
+                                <div class="con2">
+                                    <div class="con_photo">
+                                        <img src="img/waffle.png" alt="와플대학">
+                                    </div>
+                                    <div class="guide">
+                                        <p>해당 사이트는 반응형 사이트로 폰에서도 볼 수 있습니다.</p>
+                                    </div>
+                                    <div class="con_btn">
+                                        <a href="https://chg7082.github.io/WAFFLE/">사이트 이동하기</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 디자인 카레 찐 리뷰 -->
+            <section class="s5" a id="s5">
+                <div>
+                    <h1>디자인 카레 찐 리뷰</h1>
+                    <p>디자인 카레를 시식한 고객님들의 찐 리뷰!</p>
+                    <div class="box">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="img/reveiw.png" alt="리뷰1"></div>
+                                <div class="swiper-slide"><img src="img/reveiw2.png" alt="리뷰2"></div>
+                                <div class="swiper-slide"><img src="img/reveiw3.png" alt="리뷰3"></div>
+                                <div class="swiper-slide"><img src="img/reveiw4.png" alt="리뷰4"></div>
+                                <div class="swiper-slide"><img src="img/reveiw5.png" alt="리뷰5"></div>
+                                <div class="swiper-slide"><img src="img/reveiw6.png" alt="리뷰6"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 디자인 카레 체험단 모집 -->
+            <section class="s6" a id="s6">    
+                <div>
+                    <h1>디자인 카레의 시식 체험단을 모집합니다!</h1>
+                    <p>지금 바로 체험단을 신청하고 디자인 카레의 깊고 진한 맛을 느껴보세요!</p>
+                    <div class="box">
+                        <div class="contact">
+                            <img src="img/curry03.png" alt="디자인 카레3">
+                        </div>
+                    </div>
+                    <div class="con_btn">
+                        <a href="#">체험단 신청하기</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 흐르는 글자와 카피라이터 노티스 -->
+            <footer>
+                <div class="marquee">
+                    <div>
+                        <span>창의적인 아이디어와 감각적인 디자인이 듬뿍 들어간 CSG의 신제품! 디자인 카레</span>
+                        <span>창의적인 아이디어와 감각적인 디자인이 듬뿍 들어간 CSG의 신제품! 디자인 카레</span>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="copy">
+                        <p>Copyright ⓒ 2023 최슬기(CSG) All Rights Reserved.</p>
+                    </div>
+                    <div class="notice">
+                        <p>※ 본 사이트는 해상도 1920x1080의 웹화면에 최적화되어 있습니다.</p>
+                    </div>
+                </div>
+            </footer>
+
+            <!-- 탑버튼 -->
+            <div class="top"><img src="img/top_btn.png" alt="위로 올라가기 버튼"></div>
+            
+            <!-- 모달 팝업 -->
+            <div class="container">
+                <div class="modal-btn-box">
+                    <button type="button" id="modal-open"><p>디자인카레<br>파헤치기</p></button>  
+                    <div class="popup-wrap" id="popup2">
+                        <div class="popup-body">
+                            <div class="body-content">
+                                <img src="img/popup_main.png" alt="디자인카레 설명">
+                            </div>
+                            <div class="popup-foot">
+                                <span class="pop-btn" id="confirm">확인</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+            
+        </div>
+        
+        <script>
+            var laptopsInner = document.querySelectorAll('div.con_photo');
+            for (const laptopInner of laptopsInner) {
+            laptopInner.addEventListener('mouseover', (e) => {
+                var imageHeight = e.target.offsetHeight;
+                var laptopHeight = e.currentTarget.offsetHeight;
+                var scrollHeight = imageHeight-laptopHeight;
+                console.log(`${imageHeight} | ${laptopHeight} | ${scrollHeight}`);  
+                e.target.style.transform = "translate3d(0, -"+scrollHeight+"px, 0)";
+            });
+            laptopInner.addEventListener('mouseout', (e) => {
+                e.target.style.transform = "translate3d(0, 0, 0)";
+            });
+            }
+        </script>
+    </body>
+</html>

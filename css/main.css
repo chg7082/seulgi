@@ -1,0 +1,505 @@
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+a {text-decoration: none; color: #333; display: block;}
+img {width: 100%;}
+header, section, footer {float: left; width: 100%; font-family: 'Pretendard-Regular'; background-color: #fdd66b;}
+header, section, footer, div {box-sizing: border-box;}
+html, body {overflow-x: hidden; font-family: 'Pretendard-Regular';}
+h1{font-family: 'Pretendard-Regular'; font-size: 2vw;}
+p{font-family: 'Pretendard-Regular'; font-size: 1vw;}
+h2{font-family: 'SUIT-Regular'; font-size: 1.5vw;}
+h3{font-family: 'SUIT-Regular';}
+span{font-family: 'Pretendard-Regular';}
+.wrap{ width: 100%;}
+.top-nav{display: none;}
+
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 피씨버전 */
+/* 헤더 */
+header {height: 100px; background-color:#ffbb03; position:fixed; top: 0; left: 0; z-index: 100; display: flex; justify-content: space-around; align-items: center;
+		box-shadow: #b48300 1px 3px 2px;}
+header .logo{width: 3.5vw;}
+
+header nav ul {display: flex; justify-content: space-around;}
+header nav ul li a{padding: 0.5vw 3vw; font-size: 1.1vw; color: #342600; font-weight: bold;}
+header nav ul li a:hover {color: #fff;}
+
+
+/* 디자인 카레 */
+section{height: 100vh;}
+section > div {margin:0; width: 80%; margin: 0 auto; text-align: center;}
+section.s1{ position: relative;}
+section.s1 {margin: 0;}
+section.s1 > div{position: absolute;}
+section.s1 .main_txt{transform:rotateZ(-15deg); position: absolute; top: 6.5vw; left: 10vw; width: 50%; text-align: left; }
+section.s1 .main_txt p{font-size: 1vw; margin-bottom: 0.3vw; font-weight: bold;}
+section.s1 .main_txt h1{font-size: 4vw; color: #84520f;}
+section.s1 .main_info{width: 40vw; right: 5vw; bottom: 5vw;}
+section.s1 .main_bar{background-color: #ffb400; transform:rotateZ(-15deg); width: 150vw; height: 10vw; left: -10vw; top: 16vw; 
+                      display: flex; justify-content: center; align-items: center;}
+section.s1 .main_bar h2{color: #fff; font-size: 8vw;}
+section.s1 .main_content{width: 23vw; top: 19vw; left: 10vw; animation:main_animation 0.5s forwards;}
+@keyframes main_animation {0% {opacity: 0; left: 1vw;} 100% {opacity: 1; left: 10vw;}}
+
+/* 디자인 카레 소개 */
+section.s2 h1{margin-top: 6.2vw; margin-bottom: 0.5vw; color: #84520f;}
+section.s2 .box {display: flex; flex-flow: row nowrap; margin-top: 3vw;}
+section.s2 .box > div {width: 50%;}
+section.s2 .box .character{padding: 0 8vw;}
+section.s2 .box .character .logo2{position: absolute;}
+section.s2 .box .character .logo2 img{width: 260px; height: 260px; -webkit-transition: all .5s linear; transition: all .4s linear; cursor: pointer; }
+section.s2 .box .character .logo2 img:hover{transform: rotateZ(35deg); transition: transform .40s;}
+section.s2 .box .character .ch2{position: relative; top: 13.8vw; left: 8.5vw; width: 18vw; }
+section.s2 .box .profile .mine{text-align: left; line-height: 2vw; margin-top: 1.5vw;}
+
+/* 스킬바 */
+section.s2 .box .profile .skill {margin-top: 2vw;}
+section.s2 .box .profile .skill .container-skillbar {
+    width:100%;
+    padding-top:30px;
+    height:auto;
+    overflow:none;
+}
+
+body {
+	font-family:'Source Sans Pro',Arial,sans-serif;
+	background:#efefef  
+}
+.container-skillbar {
+	width:100%;
+	padding-top:30px;
+	height:auto;
+	overflow:none;
+}
+.skillbar {
+	position:relative;
+	display:block;  
+	margin-bottom:15px;
+	width:100%;
+	background:#fff;
+	height:30px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar.active .sk1{width: 100%;}
+
+.skillbar.active .sk2{width: 100%;}
+
+.skillbar.active .sk3{width: 50%;}
+
+.skillbar.active .sk4{width: 22%;}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	width:110px;
+	font-size:16px;
+	color:#fff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.15);
+	padding:0 20px;
+	height:30px;
+	line-height:30px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:30px;
+	width:0px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	transition: all 3s;
+	-webkit-transition: all 3s;
+	-moz-transition: all 3s;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:15px;
+	font-weight: bold;
+	height:30px;
+	line-height:30px;
+	color: #000000;
+	/* color:rgba(0, 0, 0, 0.5); */
+}
+
+/* 디자인 카레 그래픽 */
+section.s3 h1{margin-top: 6.2vw; margin-bottom: 0.5vw; color: #84520f;}
+section.s3 .box{display: flex; flex-flow: row nowrap; margin-top: 3vw; justify-content: space-between;}
+section.s3 .box > div{width: 45%;}
+section.s3 .box .buttons ul{display: flex; flex-flow: row wrap; justify-content: space-between; padding: 1vw;}
+section.s3 .box .buttons ul li{width: 20%; height: 7vw; padding: 0.1vw; margin: 1vw; position: relative;}
+section.s3 .box .buttons ul li div{position: absolute; width: 100%;}
+section.s3 .box .buttons ul li .back{display: block;}
+section.s3 .box .buttons ul li .front{display: none;}
+section.s3 .box .buttons ul li.active .back{display: none;}
+section.s3 .box .buttons ul li.active .front{display: block;}
+section.s3 .box .photos{padding: 1vw; background-color:#ffb400 ; height: 36vw; position: relative;}
+section.s3 .box .photos h2{margin-bottom: 0.2vw;}
+section.s3 .box .photos p{margin-bottom: 0.5vw;}
+section.s3 .box .photos ul{width: 72%; margin: 0 auto; position: relative;}
+section.s3 .box .photos ul li{position: absolute; color: #fff; text-align: center; width: 100%; height: 35vw; overflow: hidden; background-color:#ffb400 ;}
+section.s3 .box .photos ul li .search_btn{position: absolute; width: 200px; height: 200px; background-color:#ffb400 ; bottom: 20px; right: -50px; border-radius: 100%; padding: 1.5vw;
+                                          padding-right:3vw;}
+section.s3 .box .photos ul li .search_btn .scale img{position: absolute; width: 80px; height: 80px; top:50px; right:78px; left: 45px; transition: all 0.4s linear;}
+section.s3 .box .photos ul li .search_btn .scale img:hover{transition: transform .45s; transform:scale(1.5);}
+
+/* pc 팝업 */
+#popup {position: fixed; z-index:105; width: 1200px; left: 50%; transform: translateX(-50%);}
+#popup .popup_box{width: 100%;  height: 100vh; overflow-y: scroll;}
+#popup .close{background-color:#ff813c; cursor: pointer; width: 100px; height: 50px; font-size: 35px; text-align: right; padding: 5px; position: absolute; right: -100px;
+              top:100px; color:#fff;}
+
+/* 모바일 팝업 */
+#popup1 {position: fixed; z-index:105; width: 480px; left: 50%; transform: translateX(-50%);}
+#popup1 .popup_box1{width: 100%;  height: 100vh; overflow-y: scroll;}
+#popup1 .close1{background-color:#ff813c; cursor: pointer; width: 40px; height: 40px; font-size: 35px; text-align: center; padding: 2px; position: absolute; right: 18px;
+              top:35.2px; color:#fff;}
+
+/* 디자인 카레 웹코딩 */
+section.s4 .box{margin-top: 3vw;}
+section.s4 h1{margin-top: 6.2vw; margin-bottom: 0.5vw; color: #84520f;}
+section.s4 .box .tab .tab_title ul{display: flex; justify-content: center; margin-bottom: 1vw;}
+section.s4 .box .tab .tab_title ul li a{padding: 0.5vw 2vw; background-color: #ff9600; color: #fff; font-size: 1.5vw; margin: 0 2vw;}
+section.s4 .box .tab .content{margin-top: 3vw; position: relative; width: 50vw; margin: 0 auto;}
+section.s4 .box .tab .content > div {position: absolute;  width: 100%; height: 30vw;}
+section.s4 .box .tab .content .con_photo {border: 25px solid#ff9600; width: 100%; height: 80%; overflow: hidden; position: relative;} 
+section.s4 .box .tab .content .con_photo img{display: block; left: 0; position: absolute; top: 0; -webkit-transform: translate3d(0px, 0px, 0px);
+	-ms-transform: translate3d(0px, 0px, 0px);
+	-o-transform: translate3d(0px, 0px, 0px);
+	transform: translate3d(0px, 0px, 0px);
+	-webkit-transition: 6s ease-in-out;
+	-o-transition: 6s ease-in-out;
+	transition: 6s ease-in-out;
+	width: 100%;}
+section.s4 .box .tab .content .con_btn a{background-color:#ff9600 ; color: #fff; display: inline-block; padding: 1vw; margin-top:1vw; font-size: 1.5vw;}
+section.s4 .box .tab .content .con1 .con_btn2{display: none;}
+section.s4 .box .tab .content .con2 .guide{display: none;}
+	
+/* 디자인 카레 찐 리뷰 */
+section.s5 h1{margin-top: 6.2vw; margin-bottom: 0.5vw; color: #84520f;}
+section.s5 p{margin-bottom: 2vw;}
+section.s5 .box{position: relative;}
+
+/* 스와이퍼 */
+section.s5 .box .swiper{width: 80%; height: 34vw; margin-top: 4.5vw;}
+section.s5 .box .swiper-button-prev, section.s5 .box .swiper-button-next {width:100px; height:90px; margin-top:-100px;}
+section.s5 .box .swiper-button-prev:after{content:'';
+	background-image: url(../img/left_arrow.png); background-size: 100%; background-repeat: no-repeat; display: block; width: 100%; height: 100%;}
+section.s5 .box .swiper-button-next:after{content:'';
+	background-image: url(../img/right_arrow.png); background-repeat:no-repeat; background-size: 100%; display: block; width: 100%; height: 100%;}
+
+/* 디자인 카레 체험단 모집 */
+section.s6 h1{margin-top: 6.2vw; margin-bottom: 0.5vw; color: #84520f;}
+section.s6 .box{margin-top: 3vw;}
+section.s6 .box .contact{width: 25%; margin: 0 auto; -webkit-transition: all .4s linear; transition: all .4s linear; cursor: pointer; }
+section.s6 .box .contact:hover{transform: rotateZ(23deg); transition: transform .40s;}
+section.s6 .con_btn a{background-color:#ff9600 ; color: #fff; display: inline-block; padding: 1vw; margin-top:3vw; font-size: 1.5vw;}
+
+/* 푸터-흘러가는 글자 */
+footer .marquee{font-size: 2vw; background-color: #f2931d; color: #fff; height: 4vw; line-height: 4vw; overflow: hidden; position: relative; }
+footer .marquee div{position: absolute; width: 200%; animation:marquee 12s linear infinite;}
+footer .marquee div span{float: left; width: 50%;}
+@keyframes marquee{0% {left: 0;} 100%{left: -100%;}}
+
+/* 카피라이트 */
+footer .bottom{background-color: #ffff41; text-align: center; padding: 1vw; color: #040404; line-height: 30px; font-size: 18px;}
+
+/* 탑버튼 */ 
+.top{position: fixed; bottom: 40px; right: 15px; height:15px; width: 45px; height: 45px; cursor: pointer; z-index: 500; }
+
+/* 스크롤바 색변경 */
+::-webkit-scrollbar {
+width: 18px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+background: #ffffff;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #f46a1f;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #f46a1f;
+}
+
+/* 마우스 커서 바꾸기 */
+html{cursor: url(../img/mouse.png), default;}
+
+/* 모달 팝업 (디자인카레 파헤치기) 모바일에서는 안보이게*/
+.container{width:100%; position: fixed; bottom: 40px; right: 100px; height:15px; width: 45px; height: 45px; cursor: pointer; z-index: 500;}
+.modal-btn-box{width:100%;text-align:center;}
+.modal-btn-box button{display:inline-block; width:75px; height:65px; background-color:#f46a1f; color: #fff; border:1px solid #fff; border-radius: 10px; cursor:pointer; 
+	                  padding-top:1px; padding: 1px; box-shadow: 2px 2px  2px rgb(165, 165, 165);}
+.modal-btn-box p{font-size: 0.7vw;}
+.popup-wrap{background-color:rgba(0,0,0,.3); justify-content:center; align-items:center; position:fixed; top:0; left:0; right:0; bottom:0; display:none; padding:15px; width: 100%;}
+.body-content{background-color: #fdd66b; top: 30px;}
+.popup-foot{width:100%;height:80px; }
+.pop-btn{display:inline-flex; width:600px; height:100%; float:left; justify-content:center; align-items:center; color:#ffffff; cursor:pointer; background-color:#ff7200; font-size: 2vw;}
+
+section.top-nav{display: none;}
+
+/* 모바일 버전 */
+@media screen and (max-width:480px){
+
+	/* 헤더 */
+	header {height: 15vw; width: 100%; box-shadow: #b48300 1px 3px 2px;}
+	header .logo{position: absolute; left: 3.8vw; top: 1.5vw;}
+	header .logo img{width: 58px; height: 58px;}
+	header nav{display:none;}
+
+	/* 인트로 */
+	section.s1{height: 120vw;}
+	section.s1 .main_txt{display: none;}
+	section.s1 .main_info{display: none;}
+	section.s1 .main_bar{height: 20vw; left: -24.5vw; top: 30vw;}
+	section.s1 .main_bar h2{color: #fff; font-size: 12vw;}
+	section.s1 .main_content{width: 52vw; top: 53vw; right: 9.5vw; animation:main_animation 0.5s forwards;}
+
+	/* 디자인 카레 소개 */
+	section.s2{height: 209vw;}
+	section.s2 .box > div{width: 90%;}
+	section.s2 h1{font-size: 6vw;}
+	section.s2 p{font-size: 3.2vw;}
+	section.s2 .box .character .logo2{position:absolute; left: 5vw;} 
+	section.s2 .box .character .logo2 img{width: 130px; height: 130px;}
+	section.s2 .box .character .logo2 img:hover{transform: none; transition: none;}
+	section.s2 .box .character .ch2{position: absolute;  top: 168vw; left: 16.5vw; -webkit-transition: none; transition: none; cursor: none; }
+	section.s2 .box .character .ch2 img{width: 325px; height: 400px;}
+	section.s2 .box .profile{position: absolute; left: 5vw; top: 250vw; }
+	section.s2 .box .profile .mine p{font-size: 3vw;  line-height: 5vw; margin-top: 6vw;}
+	section.s2 .box .profile .skill{position: absolute; top: 42.5vw;}
+	section.s2 .box .profile .skill .container-skillbar{width: 90vw;}
+	
+	/* 스킬바 */
+	.skillbar{background-color: #fff; height: 20px;}
+	.skillbar-title {width: 85px; height: 20px;}
+	.skillbar-title span {font-size: 15px; background:rgba(0, 0, 0, 0.15); padding:0 20px; height:20px; line-height:20px;}
+	.skillbar-bar{width: 100px; height: 20px;}
+	.skill-bar-percent{line-height: 20px; font-size: 12px;}
+		 
+	/* 디자인 카레 그래픽 */
+	section > div {width: 100%;}
+	section.s3{height: 100vw;}
+	section.s3 h1{font-size: 6vw;}
+	section.s3 p{font-size: 3.2vw;}
+	section.s3 .box > div{width: 100%;}
+	section.s3 .box .buttons{margin-top: -8vw;}
+	section.s3 .box .buttons ul li{width: 20%; height: 7vw; padding: 0.1vw; margin: 6.4vw; }
+	section.s3 .photos{display: none;}
+
+	/* 디자인 카레 웹코딩 */
+	section.s4{height: 155vw;}
+	section.s4 h1{font-size: 6vw;}
+	section.s4 p{font-size: 3.2vw;}
+	section.s4 .box .tab .tab_title ul li a{padding: 0.5vw 2vw; background-color: #ff9600; color: #fff; font-size: 4.5vw; margin: 0 2vw; margin-bottom: 2vw;}
+	section.s4 .box .tab .content{margin-top: 3vw; position: relative; width: 50vw; margin: 0 auto;}
+	section.s4 .box .tab .content > div {position: absolute;  width: 200%; height: 130vw; right: -25vw;}
+	section.s4 .box .tab .content .con_photo {border: 0px solid rgba(0,0,0,0);}
+	section.s4 .box .tab .content .con_btn a{background-color:#ff9600 ; color: #fff; margin-top:1.5vw; font-size: 4.5vw;}
+	section.s4 .box .tab .content .con1 .con_btn{display: none;}
+	section.s4 .box .tab .content .con1 .con_btn2{display: block;}
+	section.s4 .box .tab .content .con1 .con_btn2 p{background-color:#ff9600 ; color: #fff; display: inline-block;  margin-top:3vw; font-size: 4vw; padding: 1.2vw;}
+	section.s4 .box .tab .content .con2 .guide{display: block;}
+	section.s4 .box .tab .content .con2 .guide p{background-color:#ff9600 ; color: #fff; display: inline-block;  margin-top:3vw; font-size: 4vw; padding: 1.2vw;}
+
+	/* 디자인 카레 찐 리뷰 */
+	section.s5{height: 98vw;}
+	section.s5 h1{font-size: 6vw;}
+	section.s5 p{font-size: 3.2vw;}
+	section.s5 .box .swiper{width: 170%; height: 100vw; margin-top: 3vw;}
+	section.s5 .box .swiper-button-prev, section.s5 .box .swiper-button-next{display: none;}
+
+	/* 디자인 카레 체험단 모집 */
+	section.s6{height: 100vw;}
+	section.s6 h1{font-size: 6vw;}
+	section.s6 p{font-size: 3.2vw;}
+	section.s6 .box .contact{width: 50%; -webkit-transition: none; transition: none; cursor: none; }
+	section.s6 .box .contact:hover{transform: none; transition: none;}
+	section.s6 .con_btn a{background-color:#ff9600 ; color: #fff; margin-top:3vw; font-size: 4.5vw;}
+	
+	/* 푸터-흘러가는 글자 */
+	footer .marquee{font-size: 8vw;  color: #fff; height: 12vw; line-height: 10vw; width: 300%; padding: 1vw;}
+
+	/* 카피라이트 */
+	footer p{text-align: center; padding: 1vw; color: #040404; line-height: 25px; font-size: 3vw;}
+	footer .bottom .notice{display:none;}
+
+	/* 탑버튼 */
+	.top{display: none;}
+
+	/* 모달 팝업 */
+	.container{display: none;}
+
+	/* 햄버거 버튼 누르면 서브메뉴 나옴 */
+	.top-nav{display: block;}
+	.top-nav {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		color: #FFF;
+		height: 50px;
+		/* padding: 1em; */
+	  }
+	  
+	.menu {
+		display: flex;
+		flex-direction: row;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	  }
+	  
+	.menu > li {
+		margin: 0 1rem;
+		overflow: hidden;
+	  }
+	  
+	.menu-button-container {
+		position: absolute;
+		right: 4vw;
+		display: none;
+		height: 100%;
+		width: 30px;
+		cursor: pointer;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	  }
+	  
+	#menu-toggle {
+		display: none;
+	  }
+	  
+	.menu-button,
+	.menu-button::before,
+	.menu-button::after {
+		display: block;
+		background-color: #e66f00 ;
+		position: absolute;
+		height: 4px;
+		width: 30px;
+		transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+		border-radius: 2px;
+	  }
+	  
+	.menu-button::before {
+		content: '';
+		margin-top: -8px;
+	  }
+	  
+	.menu-button::after {
+		content: '';
+		margin-top: 8px;
+	  }
+	  
+	#menu-toggle:checked + .menu-button-container .menu-button::before {
+		margin-top: 0px;
+		transform: rotate(405deg);
+	  }
+	  
+	#menu-toggle:checked + .menu-button-container .menu-button {
+		background: rgba(255, 255, 255, 0);
+	  }
+	  
+	#menu-toggle:checked + .menu-button-container .menu-button::after {
+		margin-top: 0px;
+		transform: rotate(-405deg);
+	  }
+	  
+	@media (max-width: 700px) {
+		.menu-button-container {
+		  display: flex;
+		}
+		.menu {
+		  position: absolute;
+		  top: 4.9vw;
+		  margin-top: 50px;
+		  left: 0;
+		  flex-direction: column;
+		  width: 100%;
+		  justify-content: center;
+		  align-items: center;
+		}
+		#menu-toggle ~ .menu li {
+		  height: 0;
+		  margin: 0;
+		  padding: 0;
+		  border: 0;
+		  transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+		}
+		#menu-toggle:checked ~ .menu li {
+		  height: 1.8em;
+		  transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+		  /* border: 1px solid #fff; */
+		}
+		.menu > li {
+		  display: flex;
+		  justify-content: center;
+		  margin: 0;
+		  padding: 0.5em 0;
+		  width: 100%;
+		  color: white;
+		  background-color: #ffbb03;
+		  line-height: 5vw;
+		}
+		.menu > li:not(:last-child) {
+		  border-bottom: 1px solid #444;
+		}
+		
+		.menu li a{font-size: 17px; padding: 0.5vw 1vw; }
+
+		.menu > li:hover{background-color: #f2931d;}
+		.menu li:hover a{color: #fff;}
+	}
+}
