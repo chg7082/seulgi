@@ -477,7 +477,7 @@ section.top-nav{display: none;}
 		  transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
 		}
 		#menu-toggle:checked ~ .menu li {
-		  height: 1.8em;
+		  height: 2.5em;
 		  transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
 		  /* border: 1px solid #fff; */
 		}
@@ -489,7 +489,7 @@ section.top-nav{display: none;}
 		  width: 100%;
 		  color: white;
 		  background-color: #ffbb03;
-		  line-height: 5.7vw;
+		  line-height: 7vw;
 		}
 		.menu > li:not(:last-child) {
 		  border-bottom: 1px solid #444;
