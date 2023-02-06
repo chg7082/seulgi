@@ -461,7 +461,7 @@ section.top-nav{display: none;}
 		}
 		.menu {
 		  position: absolute;
-		  top: 1.4vw;
+		  top: 1.3vw;
 		  margin-top: 50px;
 		  left: 0;
 		  flex-direction: column;
@@ -489,7 +489,7 @@ section.top-nav{display: none;}
 		  width: 100%;
 		  color: white;
 		  background-color: #ffbb03;
-		  line-height: 5vw;
+		  line-height: 5.5vw;
 		}
 		.menu > li:not(:last-child) {
 		  border-bottom: 1px solid #444;
