@@ -293,7 +293,7 @@ section.top-nav{display: none;}
 	/* 헤더 */
 	header {height: 15vw; width: 100%; box-shadow: #b48300 1px 3px 2px;}
 	header .logo{position: absolute; left: 3.8vw; top: 1.5vw;}
-	header .logo img{width: 58px; height: 58px;}
+	header .logo img{width: 40px; height: 40px;}
 	header nav{display:none;}
 
 	/* 인트로 */
@@ -309,11 +309,9 @@ section.top-nav{display: none;}
 	section.s2 .box > div{width: 90%;}
 	section.s2 h1{font-size: 6vw;}
 	section.s2 p{font-size: 3.2vw;}
-	section.s2 .box .character .logo2{position:absolute; left: 5vw;} 
-	section.s2 .box .character .logo2 img{width: 130px; height: 130px;}
-	section.s2 .box .character .logo2 img:hover{transform: none; transition: none;}
+	section.s2 .box .character .logo2{display:none;}
 	section.s2 .box .character .ch2{position: absolute;  top: 168vw; left: 16.5vw; -webkit-transition: none; transition: none; cursor: none; }
-	section.s2 .box .character .ch2 img{width: 325px; height: 400px;}
+	section.s2 .box .character .ch2 img{width: 250px; height: 380px;}
 	section.s2 .box .profile{position: absolute; left: 5vw; top: 250vw; }
 	section.s2 .box .profile .mine p{font-size: 3vw;  line-height: 5vw; margin-top: 6vw;}
 	section.s2 .box .profile .skill{position: absolute; top: 42.5vw;}
