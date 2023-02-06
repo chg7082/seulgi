@@ -314,7 +314,7 @@ section.top-nav{display: none;}
 	section.s2 .box .character .ch2 img{width: 42vw; top: 43vw; right: 9.5vw;}
 	section.s2 .box .profile{position: absolute; left: 5vw; top: 190vw; }
 	section.s2 .box .profile .mine p{font-size: 3vw;  line-height: 5vw; margin-top: 6vw;}
-	section.s2 .box .profile .skill{position: absolute; top: 42vw;}
+	section.s2 .box .profile .skill{position: absolute; top: 38vw;}
 	section.s2 .box .profile .skill .container-skillbar{width: 90vw;}
 	
 	/* 스킬바 */
@@ -461,7 +461,7 @@ section.top-nav{display: none;}
 		}
 		.menu {
 		  position: absolute;
-		  top: 4vw;
+		  top: 3vw;
 		  margin-top: 50px;
 		  left: 0;
 		  flex-direction: column;
