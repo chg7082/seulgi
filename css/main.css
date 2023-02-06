@@ -111,7 +111,7 @@ body {
 
 .skillbar.active .sk3{width: 50%;}
 
-.skillbar.active .sk4{width: 22%;}
+.skillbar.active .sk4{width: 30%;}
 
 .skillbar-title {
 	position:absolute;
@@ -292,7 +292,7 @@ section.top-nav{display: none;}
 
 	/* 헤더 */
 	header {height: 15vw; width: 100%; box-shadow: #b48300 1px 3px 2px;}
-	header .logo{position: absolute; left: 3.8vw; top: 1.7vw;}
+	header .logo{position: absolute; left: 3.8vw; top: 1.8vw;}
 	header .logo img{width: 40px; height: 40px;}
 	header nav{display:none;}
 
@@ -335,7 +335,7 @@ section.top-nav{display: none;}
 	section.s3 .photos{display: none;}
 
 	/* 디자인 카레 웹코딩 */
-	section.s4{height: 160vw;}
+	section.s4{height: 163vw;}
 	section.s4 h1{font-size: 6vw;}
 	section.s4 p{font-size: 3.2vw;}
 	section.s4 .box .tab .tab_title ul li a{padding: 0.5vw 2vw; background-color: #ff9600; color: #fff; font-size: 4.5vw; margin: 0 2vw; margin-bottom: 2vw;}
@@ -353,7 +353,7 @@ section.top-nav{display: none;}
 	section.s5{height: 128vw;}
 	section.s5 h1{font-size: 6vw;}
 	section.s5 p{font-size: 3.2vw;}
-	section.s5 .box .swiper{width: 215%; height: 100vw; margin-top: 3vw;}
+	section.s5 .box .swiper{width: 220%; height: 100vw; margin-top: 3vw;}
 	section.s5 .box .swiper-button-prev, section.s5 .box .swiper-button-next{display: none;}
 
 	/* 디자인 카레 체험단 모집 */
