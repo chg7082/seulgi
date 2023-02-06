@@ -353,7 +353,7 @@ section.top-nav{display: none;}
 	section.s5{height: 128vw;}
 	section.s5 h1{font-size: 6vw;}
 	section.s5 p{font-size: 3.2vw;}
-	section.s5 .box .swiper{width: 206%; height: 100vw; margin-top: 3vw;}
+	section.s5 .box .swiper{width: 208%; height: 100vw; margin-top: 3vw;}
 	section.s5 .box .swiper-button-prev, section.s5 .box .swiper-button-next{display: none;}
 
 	/* 디자인 카레 체험단 모집 */
@@ -489,7 +489,7 @@ section.top-nav{display: none;}
 		  width: 100%;
 		  color: white;
 		  background-color: #ffbb03;
-		  line-height: 10.7vw;
+		  line-height: 10.6vw;
 		}
 		.menu > li:not(:last-child) {
 		  border-bottom: 1px solid #444;
