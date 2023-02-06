@@ -326,7 +326,7 @@ section.top-nav{display: none;}
 		 
 	/* 디자인 카레 그래픽 */
 	section > div {width: 100%;}
-	section.s3{height: 100vw;}
+	section.s3{height: 105vw;}
 	section.s3 h1{font-size: 6vw;}
 	section.s3 p{font-size: 3.2vw;}
 	section.s3 .box > div{width: 100%;}
@@ -472,7 +472,7 @@ section.top-nav{display: none;}
 		#menu-toggle ~ .menu li {
 		  height: 0;
 		  margin: 0;
-		  /* padding: 0; */
+		  padding: 0;
 		  border: 0;
 		  transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
 		}
