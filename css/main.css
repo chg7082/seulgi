@@ -350,10 +350,10 @@ section.top-nav{display: none;}
 	section.s4 .box .tab .content .con2 .guide p{background-color:#ff9600 ; color: #fff; display: inline-block;  margin-top:3vw; font-size: 4vw; padding: 1.2vw;}
 
 	/* 디자인 카레 찐 리뷰 */
-	section.s5{height: 103vw;}
+	section.s5{height: 108vw;}
 	section.s5 h1{font-size: 6vw;}
 	section.s5 p{font-size: 3.2vw;}
-	section.s5 .box .swiper{width: 170%; height: 100vw; margin-top: 3vw;}
+	section.s5 .box .swiper{width: 200%; height: 100vw; margin-top: 3vw;}
 	section.s5 .box .swiper-button-prev, section.s5 .box .swiper-button-next{display: none;}
 
 	/* 디자인 카레 체험단 모집 */
