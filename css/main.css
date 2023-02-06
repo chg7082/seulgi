@@ -292,7 +292,7 @@ section.top-nav{display: none;}
 
 	/* 헤더 */
 	header {height: 15vw; width: 100%; box-shadow: #b48300 1px 3px 2px;}
-	header .logo{position: absolute; left: 3.8vw; top: 1.8vw;}
+	header .logo{position: absolute; left: 3.8vw; top: 2vw;}
 	header .logo img{width: 40px; height: 40px;}
 	header nav{display:none;}
 
@@ -350,7 +350,7 @@ section.top-nav{display: none;}
 	section.s4 .box .tab .content .con2 .guide p{background-color:#ff9600 ; color: #fff; display: inline-block;  margin-top:3vw; font-size: 4vw; padding: 1.2vw;}
 
 	/* 디자인 카레 찐 리뷰 */
-	section.s5{height: 128vw;}
+	section.s5{height: 130vw;}
 	section.s5 h1{font-size: 6vw;}
 	section.s5 p{font-size: 3.2vw;}
 	section.s5 .box .swiper{width: 220%; height: 100vw; margin-top: 3vw;}
