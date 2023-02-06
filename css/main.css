@@ -311,7 +311,7 @@ section.top-nav{display: none;}
 	section.s2 p{font-size: 3.2vw;}
 	section.s2 .box .character .logo2 img{display: none;}
 	section.s2 .box .character .ch2{position: absolute;  top: 140vw; left:30vw; -webkit-transition: none; transition: none; cursor: none; }
-	section.s2 .box .character .ch2 img{width: 52vw; top: 53vw; right: 9.5vw;}
+	section.s2 .box .character .ch2 img{width: 42vw; top: 43vw; right: 9.5vw;}
 	section.s2 .box .profile{position: absolute; left: 5vw; top: 190vw; }
 	section.s2 .box .profile .mine p{font-size: 3vw;  line-height: 5vw; margin-top: 6vw;}
 	section.s2 .box .profile .skill{position: absolute; top: 42.5vw;}
@@ -461,7 +461,7 @@ section.top-nav{display: none;}
 		}
 		.menu {
 		  position: absolute;
-		  top: 4.9vw;
+		  top: 4.5vw;
 		  margin-top: 50px;
 		  left: 0;
 		  flex-direction: column;
