@@ -292,8 +292,8 @@ section.top-nav{display: none;}
 
 	/* 헤더 */
 	header {height: 15vw; width: 100%; box-shadow: #b48300 1px 3px 2px;}
-	header .logo{position: absolute; left: 3.8vw; top: 2vw;}
-	header .logo img{width: 40px; height: 40px;}
+	header .logo{position: absolute; left: 3.8vw; top: 1.4vw;}
+	header .logo img{width: 45px; height: 45px;}
 	header nav{display:none;}
 
 	/* 인트로 */
@@ -302,7 +302,7 @@ section.top-nav{display: none;}
 	section.s1 .main_info{display: none;}
 	section.s1 .main_bar{height: 20vw; left: -24.5vw; top: 30vw;}
 	section.s1 .main_bar h2{color: #fff; font-size: 12vw;}
-	section.s1 .main_content{width: 52vw; top: 53vw; right: 9.5vw; animation:main_animation 0.5s forwards;}
+	section.s1 .main_content{width: 52vw; top: 50vw; right: 9.5vw; animation:main_animation 0.5s forwards;}
 
 	/* 디자인 카레 소개 */
 	section.s2{height: 160vw;}
@@ -314,7 +314,7 @@ section.top-nav{display: none;}
 	section.s2 .box .character .ch2 img{width: 40vw; top: 43vw; right: 9.5vw;}
 	section.s2 .box .profile{position: absolute; left: 5vw; top: 190vw; }
 	section.s2 .box .profile .mine p{font-size: 3vw;  line-height: 5vw; margin-top: 6vw;}
-	section.s2 .box .profile .skill{position: absolute; top: 38vw;}
+	section.s2 .box .profile .skill{position: absolute; top: 40vw;}
 	section.s2 .box .profile .skill .container-skillbar{width: 90vw;}
 	
 	/* 스킬바 */
@@ -326,7 +326,7 @@ section.top-nav{display: none;}
 		 
 	/* 디자인 카레 그래픽 */
 	section > div {width: 100%;}
-	section.s3{height: 114vw;}
+	section.s3{height: 110vw;}
 	section.s3 h1{font-size: 6vw;}
 	section.s3 p{font-size: 3.2vw;}
 	section.s3 .box > div{width: 100%;}
@@ -335,7 +335,7 @@ section.top-nav{display: none;}
 	section.s3 .photos{display: none;}
 
 	/* 디자인 카레 웹코딩 */
-	section.s4{height: 163vw;}
+	section.s4{height: 160vw;}
 	section.s4 h1{font-size: 6vw;}
 	section.s4 p{font-size: 3.2vw;}
 	section.s4 .box .tab .tab_title ul li a{padding: 0.5vw 2vw; background-color: #ff9600; color: #fff; font-size: 4.5vw; margin: 0 2vw; margin-bottom: 2vw;}
@@ -350,10 +350,10 @@ section.top-nav{display: none;}
 	section.s4 .box .tab .content .con2 .guide p{background-color:#ff9600 ; color: #fff; display: inline-block;  margin-top:3vw; font-size: 4vw; padding: 1.2vw;}
 
 	/* 디자인 카레 찐 리뷰 */
-	section.s5{height: 130vw;}
+	section.s5{height: 125vw;}
 	section.s5 h1{font-size: 6vw;}
 	section.s5 p{font-size: 3.2vw;}
-	section.s5 .box .swiper{width: 220%; height: 100vw; margin-top: 3vw;}
+	section.s5 .box .swiper{width: 215%; height: 100vw; margin-top: 3vw;}
 	section.s5 .box .swiper-button-prev, section.s5 .box .swiper-button-next{display: none;}
 
 	/* 디자인 카레 체험단 모집 */
@@ -484,18 +484,19 @@ section.top-nav{display: none;}
 		.menu > li {
 		  display: flex;
 		  justify-content: center;
-		  margin: 0;
+		  margin: 5vw;
 		  padding: 0.5em 0;
 		  width: 100%;
 		  color: white;
 		  background-color: #ffbb03;
 		  line-height: 10.5vw;
 		}
+
 		.menu > li:not(:last-child) {
 		  border-bottom: 1px solid #444;
 		}
 		
-		.menu li a{font-size: 18px; padding: 0.5vw 1vw; }
+		.menu li a{font-size: 20px; padding: 0.5vw 1vw; }
 
 		.menu > li:hover{background-color: #f2931d;}
 		.menu li:hover a{color: #fff;}
